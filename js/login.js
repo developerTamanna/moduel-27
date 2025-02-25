@@ -8,7 +8,7 @@ document.getElementById('login-btn')
     // console.log(pinSet)
     if(accountNumber.length===11){
         // console.log('yes right number')
-        window.location.href="/main.html"
+        window.location.href="./main.html"
         if(parseInt(pinSet)===1234){
             console.log('right pin')
         }
